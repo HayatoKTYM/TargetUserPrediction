@@ -61,7 +61,7 @@ if __name__ == '__main__':
 
     print('training finish')
 
-    for i,file in enumerate(files[30:35]):#6:
+    for i,range(30,35):#6:
         ex = Extract_LLDfeature(audio_path=lld_files[i],
                                 label_path=files[i],
                                 frame=time_step)
